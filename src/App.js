@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom"
+import Navbar from "./Components/navbar"
+import Home from "./Pages/home"
+import Cart from "./Pages/cart"
+import Category from "./Pages/category"
+import ProductView from "./Pages/product-view"
+
+import CartCrud from './cartFunction'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const { cart, addCart, updateCart, deleteCart, cartAlert, success, selectAllinCart, selectPerProduct, selectPerShop, calculateCart, converter } = CartCrud();
+
+    return (
+        <>
+            <Navbar cartCount={cart.length}/>
+            <main className="bg-off-white min-h-dvh font-inter text-black">            
+                <Routes>
+                <Route 
+                    path="/" 
+                    element={<Home />}
+                    
+                />
+                <Route 
+                    path="/cart" 
+                    element={
+                        <Cart 
+                            cart={cart} 
+                            deleteCart={deleteCart} 
+                            updateCart={updateCart} 
+                            selectAllinCart={selectAllinCart} 
+                            selectPerProduct={selectPerProduct}
+                            selectPerShop={selectPerShop}
+                            calculateCart={calculateCart}
+                            converter={converter}
+                        />
+                    }
+                />
+                <Route 
+                    path="/category" 
+                    element={<Category/>}
+                />
+                <Route 
+                    path="/:id" 
+                    element={<ProductView addCart={addCart} cart={cart} cartAlert={cartAlert} success={success}/>}
+                />
+                </Routes>
+            </main>
+        </>
+    );
 }
 
 export default App;

@@ -1,0 +1,239 @@
+{
+    "categories" : [
+        {
+            "id": 1,
+            "name": "Mobile Phones"
+        },
+        {
+            "id": 2,
+            "name": "Smart Accessories"
+        }
+    ],
+    "seller" : [
+        {
+            "sellerID": 1,
+            "name": "Power Mac Center",
+            "profile" : "../img/store_profiles/powermac.jpeg"
+        },
+        {
+            "sellerID": 2,
+            "name": "Samsung Official PH",
+            "profile" : "../img/store_profiles/samsung.jpg"
+        },
+        {
+            "sellerID": 3,
+            "name": "Xiaomi Philippines",
+            "profile" : "../img/store_profiles/xiaomi.png"
+        },
+        {
+            "sellerID": 4,
+            "name": "Huawei Official Store",
+            "profile" : "../img/store_profiles/huawei.jpeg"
+        },
+        {
+            "sellerID": 5,
+            "name": "OnePlus Philippines",
+            "profile" : "../img/store_profiles/oneplus.jpg"
+        }
+    ],
+    "products" : [
+        {
+            "prodID": 1,
+            "brand" : "Apple",
+            "productName": "Iphone 15 Pro Max",
+            "categoryID": 1,
+            "sellerID": 1,
+            "description": "A high-end smartphone with advanced features.",
+            "thumbnail" : "../img/phones/sg-11134301-7rd6c-lx990cfb81vu39.webp",
+            "images": 
+                [
+                "../img/phones/sg-11134301-7rd3s-lx9audtq5aiy76.webp",
+                "../img/phones/sg-11134301-7rd3t-lx98xoql7kin7e.webp",
+                "../img/phones/sg-11134301-7rd4v-lx98xshzpfty52.webp",
+                "../img/phones/sg-11134301-7rd4w-lx98xozgulex86.webp",
+                "../img/phones/sg-11134301-7rd43-lx98xow4zgtl55.webp"
+                ],
+            "stocks": 50,
+            "soldCount": 120,
+            "price": "₱75,990"
+        },
+        {
+            "prodID": 2,
+            "brand" : "Samsung",
+            "productName": "Samsung S24 Ultra",
+            "categoryID": 1,
+            "sellerID": 2,
+            "description": "6.8 QHD+ Dynamic AMOLED 2X, 200MP Wide Camera + 50MP Tele Camera + 12MP Ultra Wide + Laser AF Sensor Depth Camera + 12MP Front Camera, 8GB RAM + 1TB Storage, 5,000mAh Battery Capacity, Qualcomm: Snapdragon8 Gen3 For Galaxy (SM8650 Pro), Android 14, 5G Capable, Dual Sim, Titanium",
+            "thumbnail": "../img/phones/ph-11134207-7r98x-luqoqqlyqr4q7f.webp",
+            "images": 
+                [
+                "../img/phones/ph-11134207-7r98v-lr46u3m4c85gf0.webp", 
+                "../img/phones/ph-11134207-7r98r-lqacxdp29d1r9d.webp", 
+                "../img/phones/ph-11134207-7r98u-lqacxdp2ezbj2a.webp", 
+                "../img/phones/ph-11134207-7r98v-lqacxdp2c66n82.webp", 
+                "../img/phones/ph-11134207-7r98u-lqacxdp2arm7c6.webp"
+                ],
+            "stocks": 20,
+            "soldCount": 110,
+            "price": "₱71,990"
+        },
+        {
+            "prodID": 3,
+            "brand" : "Xiaomi",
+            "productName": "Xiaomi 13T Pro",
+            "categoryID": 1,
+            "sellerID": 3,
+            "description": "A high-end smartphone with advanced features.",
+            "thumbnail": "../img/phones/Xiaomi 13T Pro.png",
+            "images": ["../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png"],
+            "stocks": 12,
+            "soldCount": 120,
+            "price": "₱75,990"
+        },
+        {
+            "prodID": 4,
+            "brand" : "Huawei",
+            "productName": "Huawei P50 Pro",
+            "categoryID": 1,
+            "sellerID": 4,
+            "description": "A high-end smartphone with advanced features.",
+            "thumbnail": "../img/phones/Huawei P50 Pro.png",
+            "images": ["../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png"],
+            "stocks": 50,
+            "soldCount": 110,
+            "price": "₱82,990"
+        },
+        {
+            "prodID": 5,
+            "brand" : "Apple",
+            "productName": "Iphone 15",
+            "categoryID": 1,
+            "sellerID": 1,
+            "description": "A high-end smartphone with advanced features.",
+            "thumbnail": "../img/phones/Iphone 15.png",
+            "images": ["../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png"],
+            "stocks": 50,
+            "soldCount": 120,
+            "price": "₱75,990"
+        },
+        {
+            "prodID": 6,
+            "brand" : "OnePlus",
+            "productName": "OnePlus 10T 5G",
+            "categoryID": 1,
+            "sellerID": 5,
+            "description": "A high-end smartphone with advanced features.",
+            "thumbnail": "../img/phones/onplus10t5g.png",
+            "images": ["../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png"],
+            "stocks": 50,
+            "soldCount": 110,
+            "price": "₱82,990"
+        },
+        {
+            "prodID": 7,
+            "brand" : "WSKEN",
+            "productName": "Screen Protector for iphone 14 13 12 15 Pro Max 2 Pack Full Cover Tempered Glass,Easy Install",
+            "categoryID": 2,
+            "sellerID": 2,
+            "description": "The Screen Protector can prevent dust from entering the handset. Premium Tempered glass durability rated at 9H hardness",
+            "thumbnail": "../img/accessories/screen-protector.jpeg",
+            "images": ["../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png"],
+            "stocks": 126,
+            "soldCount": 231,
+            "price": "₱250"
+        },
+        {
+            "prodID": 8,
+            "brand" : "Aukey",
+            "productName": "AUKEY PA-B6U Omnia II Mix 67W UFCS 3-Port UFCS Wall Charger with GaN Technology",
+            "categoryID": 2,
+            "sellerID": 1,
+            "description": "The newest fast charger designed to support UFCS charging standards from the brand AUKEY, Germany, delivering a maximum power of 67W.",
+            "thumbnail": "../img/accessories/aukey wall charger.jpeg",
+            "images": ["../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png"],
+            "stocks": 26,
+            "soldCount": 16,
+            "price": "₱1,879"
+        },
+        {
+            "prodID": 9,
+            "brand" : "MAIA",
+            "productName": "Mobile Phone Stand Mount",
+            "categoryID": 2,
+            "sellerID": 2,
+            "description": "Does not occupy space. Non-slip and no shaking. Silicone pad design prevent slipping or sliding, rubber mat protect no scratching your mobile phone, One handed operation",
+            "thumbnail": "../img/accessories/phone-stand.png",
+            "images": ["../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png"],
+            "stocks": 50,
+            "soldCount": 110,
+            "price": "₱55"
+        },
+        {
+            "prodID": 10,
+            "brand" : "Samsung",
+            "productName": "Samsung Dual Type C Cable",
+            "categoryID": 2,
+            "sellerID": 1,
+            "description": "Original Samsung Dual Type C Cable Galaxy Charge cable quick fast charge USB 3.0 25W PD Type-C for Note 10  S20  S20 Ultra A8S A9S A6S A80 A90",
+            "thumbnail": "../img/accessories/samsung-c-cable.jpeg",
+            "images": ["../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png"],
+            "stocks": 50,
+            "soldCount": 42,
+            "price": "₱250"
+        },
+        {
+            "prodID": 11,
+            "brand" : "GOOJODOQ",
+            "productName": "Goojodoq Active Type C Hub Converter 6 In 1 Adapter ",
+            "categoryID": 2,
+            "sellerID": 2,
+            "description": "The Type C PD port supports up to 87W Power Delivery,  it can charge your other usb c devices while you are connecting multiple peripherals and transferring data with this hub. ",
+            "thumbnail": "../img/accessories/type-c-hub.jpeg",
+            "images": ["../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png", "../img/phones/Samsung S23 Ultra.png", "../img/phones/Iphone 15 Pro Max.png"],
+            "stocks": 223,
+            "soldCount": 54,
+            "price": "₱539"
+        }
+    ],
+    "brands" : [
+        {
+            "logo": "simple-icons:samsung", 
+            "text": "samsung"
+        },
+        {
+            "logo": "ic:baseline-apple", 
+            "text": "apple"
+        },
+        {
+            "logo": "simple-icons:oneplus", 
+            "text": "oneplus"
+        },
+        {
+            "logo": "simple-icons:xiaomi", 
+            "text": "xiaomi"
+        },
+        {
+            "logo": "simple-icons:motorola", 
+            "text": "motorola"
+        },
+        {
+            "logo": "simple-icons:oppo", 
+            "text": "oppo"
+        },        {
+            "logo": "simple-icons:huawei", 
+            "text": "huawei"
+        },
+        {
+            "logo": "simple-icons:asus", 
+            "text": "asus"
+        },
+        {
+            "logo": "simple-icons:vivo", 
+            "text": "vivo"
+        },
+        {
+            "logo": "simple-icons:honor", 
+            "text": "honor"
+        }
+    ]  
+}
